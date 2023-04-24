@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let json = [{
+    id : "1", 
+    name   : "pavithran",
+    email : "pavi@gmail.com",
+    skill: "javascript"
+},
+{
+     id : "2", 
+    name   : "sathya",
+    email : "sathyad@gmail.com",
+    skill: "python"
+},
+{
+     id : "3", 
+    name   : "karthi",
+    email : "karthi@gmail.com",
+    skill: "c"
+},
+{
+     id : "4", 
+    name   : "ganesh",
+    email : "ganesh87@gmail.com",
+    skill: "java"
+}];
+
+//for loop:
+
+for(let i = 0; i < json.length; i++) {
+    let obj = json[i];
+
+    console.log(obj.name);
+}
+
+//for in loop
+
+for(let i in json){
+    console.log(json[i].email);
+}
+
+//for of loop:
+
+for(let i of json){
+    console.log(i.skill);
+}
+
+//for eack loop:
+
+json.forEach(function(obj)
+{ 
+    console.log(obj.id); 
+    
+});
+        </script>
+    </body>
+</html>
