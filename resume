@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let resume;
+resume ={
+    biodata:{
+    name:"PAVITHRAN",
+    email:"pavithran280798@gmail.com",
+    phone:9087468035,
+    degree:"B.E Civi Engineering",
+    address:{
+        no:25,
+        place:"manalmedu",
+        district:"mayiladuthurai",
+        state:"Tamilnadu",
+    }
+    },
+    education:{
+        institution:"jeppiaar Engineering college",
+        depatment:"civil",
+        studytype:"full time",
+        batch:2016-2020,
+        cgpa:"6.25%",
+    },
+    skills:{
+        programming:"javascript",
+        level:"beginer",
+    },
+    languages:
+    {
+        known:"Tamil,english",
+    }
+}
+console.log(resume);
+
+        </script>
+    </body>
+</html>
